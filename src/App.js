@@ -1,10 +1,9 @@
 import './App.css';
+import Navigation from './components/Navigation';
 // import { Routes, Route } from 'react-router-dom';
 
 const App = () => (
-  <div className="App">
-    <h1>Space Travelers Hub</h1>
-  </div>
+  <Navigation />
 );
 
 export default App;
