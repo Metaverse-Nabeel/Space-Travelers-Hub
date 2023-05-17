@@ -88,7 +88,7 @@ Browser
 
 ### Setup
 
-git clone https://github.com/Metaverse-Nabeel/Math-Magicians.git
+git clone https://github.com/Metaverse-Nabeel/Space-Travelers-Hub.git
 
 cd Math-Magicians
 
