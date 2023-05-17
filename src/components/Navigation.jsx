@@ -22,22 +22,22 @@ function Navigation() {
             />
             Space Travelers&apos; Hub
           </Navbar.Brand>
-          <Nav className={NavCSS.navigationLinks} id="links">
+          <Nav className={NavCSS.navigationLinks}>
             <NavLink
               to="/rockets"
               style={({ isActive, isPending }) => ({
-                borderRight: isActive ? '4px solid #040444' : '',
                 paddingRight: isActive ? '1rem' : '',
-                color: isPending ? '#2299c8' : '#040444',
+                textDecoration: isActive ? 'underline' : '',
+                color: isPending ? '#2299c8' : '#0e7ca7',
               })}>
               Rockets
             </NavLink>
             <NavLink
               to="/missions"
               style={({ isActive, isPending }) => ({
-                borderRight: isActive ? '4px solid #040444' : '',
                 paddingRight: isActive ? '1rem' : '',
-                color: isPending ? '#2299c8' : '#040444',
+                textDecoration: isActive ? 'underline' : '',
+                color: isPending ? '#2299c8' : '#0e7ca7',
               })}>
               Missions
 
@@ -45,12 +45,11 @@ function Navigation() {
             <NavLink
               to="/profile"
               style={({ isActive, isPending }) => ({
-                borderRight: isActive ? '4px solid #040444' : '',
                 paddingRight: isActive ? '1rem' : '',
-                color: isPending ? '#2299c8' : '#040444',
+                textDecoration: isActive ? 'underline' : '',
+                color: isPending ? '#2299c8' : '#0e7ca7',
               })}>
               My Profile
-
             </NavLink>
           </Nav>
         </Container>

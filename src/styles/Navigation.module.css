@@ -27,6 +27,7 @@
   padding-right: 2rem;
 }
 
-#links a.active {
-  border-right: 2px solid #040444;
+.navigationLinks a {
+  padding-right: 1.5rem;
+  border-right: 3px solid black;
 }
