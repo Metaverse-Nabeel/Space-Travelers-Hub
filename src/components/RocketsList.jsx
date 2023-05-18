@@ -11,7 +11,7 @@ const RocketsList = () => {
     <div className={rocketListCSS.wrapper}>
       {
             rockets.map((rocket) => (
-              <Rocket key={rocket.id} name={rocket.rocket_name} desc={rocket.description} image={rocket.rocket_image} />
+              <Rocket key={rocket.id} id={rocket.id} status={rocket.reserved} name={rocket.rocket_name} desc={rocket.description} image={rocket.rocket_image} />
             ))
         }
     </div>
