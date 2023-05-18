@@ -73,6 +73,7 @@
 - **[Setup linters for React/Redux]**
 - **[Setup React Bootstrap]**
 - **[Setup React Router & NavLinks]**
+- **[Fetch Rockets data form Rockets API]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
