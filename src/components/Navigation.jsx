@@ -25,7 +25,6 @@ const Navigation = () => (
           <NavLink
             to="/"
             style={({ isActive, isPending }) => ({
-              paddingRight: isActive ? '1rem' : '',
               textDecoration: isActive ? 'underline' : '',
               color: isPending ? '#6abada' : '#0e7ca7',
             })}>
@@ -34,7 +33,6 @@ const Navigation = () => (
           <NavLink
             to="/missions"
             style={({ isActive, isPending }) => ({
-              paddingRight: isActive ? '1rem' : '',
               textDecoration: isActive ? 'underline' : '',
               color: isPending ? '#6abada' : '#0e7ca7',
             })}>
@@ -44,7 +42,6 @@ const Navigation = () => (
           <NavLink
             to="/profile"
             style={({ isActive, isPending }) => ({
-              paddingRight: isActive ? '1rem' : '',
               textDecoration: isActive ? 'underline' : '',
               color: isPending ? '#6abada' : '#0e7ca7',
             })}>
