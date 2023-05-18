@@ -28,7 +28,7 @@ const Rockets = () => {
                     <span />
                     {rocket.description}
                   </p>
-                  <button className="button" type="button"> Reserve</button>
+                  <button className="button" type="button">Reserve</button>
                 </div>
               </section>
             ))
