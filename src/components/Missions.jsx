@@ -1,7 +1,10 @@
 import React from 'react';
 
 const Missions = () => (
-  <div>Missions</div>
+  <>
+    <h1>Missions</h1>
+    <h2>Under Construction</h2>
+  </>
 );
 
 export default Missions;
