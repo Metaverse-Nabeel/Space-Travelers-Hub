@@ -71,6 +71,8 @@
 
 - **[Setup with create-react-app]**
 - **[Setup linters for React/Redux]**
+- **[Setup React Bootstrap]**
+- **[Setup React Router & NavLinks]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
