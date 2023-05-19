@@ -74,6 +74,9 @@
 - **[Setup React Bootstrap]**
 - **[Setup React Router & NavLinks]**
 - **[Fetch Rockets data form Rockets API]**
+- **[Reserve / Un-reserve Rockets]**
+- **[Show Reserved Rockets in My Profile]**
+- **[Jest Snapshot Testing for Components]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
