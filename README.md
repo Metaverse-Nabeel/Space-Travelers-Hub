@@ -15,6 +15,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -77,6 +78,14 @@
 - **[Reserve / Un-reserve Rockets]**
 - **[Show Reserved Rockets in My Profile]**
 - **[Jest Snapshot Testing for Components]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo](https://space-travelers-hub-qmrw.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
