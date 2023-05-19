@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import Spinner from 'react-bootstrap/Spinner';
-import FetchRockets from '../redux/rockets/fetchRockets';
+import { FetchRockets } from '../redux/rockets/rocketsSlice';
 import RocketsList from './RocketsList';
 import rocketsCSS from '../styles/Rockets.module.css';
 
