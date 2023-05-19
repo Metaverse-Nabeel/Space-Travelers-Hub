@@ -6,10 +6,10 @@ import RocketsList from './RocketsList';
 import rocketsCSS from '../styles/Rockets.module.css';
 
 const Rockets = () => {
-  const { status, error } = useSelector((state) => state.rockets);
+  const { rockets, status, error } = useSelector((state) => state.rockets);
   const Dispatch = useDispatch();
   useEffect(() => {
-    Dispatch(FetchRockets());
+    if (!(rockets.length)) Dispatch(FetchRockets());
   }, [Dispatch]);
   if (status) {
     return (
